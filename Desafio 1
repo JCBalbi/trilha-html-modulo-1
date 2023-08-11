@@ -1,0 +1,90 @@
+<html>
+    <head>
+            <title>Módulo I - Primeiros Passos com HTML</title>
+    </head>
+
+    <Body>
+        <h1>Módulo I - Primeiros Passos com HTML</h1>
+        <hr>
+            <Strong>Índice</Strong>
+            <ul>
+                <li><a href="#historiadaweb">História da Web</a></li>
+                <li><a href="#oquesaoclients">O que são clients</a></li>
+                <li><a href="#oquesaoservers">O que são servers</a></li>
+                <li><a href="#linguagemdeprogramacao">Linguagem de Programação</a></li>
+                <li><a href="#referencias">Referências</a></li>
+            </ul>
+        <hr>
+        <h2 id="historiadaweb">História da Web</h2>  
+
+                <h3>Primeiros computadores</h3>
+                <h4>Primeira Geração (1951-1959)</h4>
+                        <p>O computador, tal qual conhecemos hoje, passou por diversas transformações e foi se aperfeiçoando ao longo do tempo, acompanhando o avanço das áreas da matemática, engenharia, eletrônica. É por isso que não existe somente um inventor.</p>
+                        <p><i>Exemplos: Harvard Mark 1, Colossus, ENIAC, etc.</i></p>
+                <h4>Segunda Geração (1959-1965)</h4>
+                        <p>Ainda com dimensões muito grandes, os computadores da segunda geração funcionavam por meio de transistores, os quais substituíram as válvulas que eram maiores e mais lentas. Nesse período já começam a se espalhar o uso comercial.</p>
+                <h4>Terceira Geração (1965-1975)</h4>  
+                        <p>Os computadores da terceira geração funcionavam por circuitos integrados. Esses substituíram os transistores e já apresentavam uma dimensão menor e maior capacidade de processamento.</p>
+                        <p>Foi nesse período que os chips foram criados e a utilização de computadores pessoais começou.</p>
+                <h4>Quarta Geração (1975-Dias atuais)</h4>        
+                        <p>Com o desenvolvimento da tecnologia da informação, os computadores diminuem de tamanho, aumentam a velocidade e capacidade de processamento de dados. São incluídos os microprocessadores com gasto cada vez menor de energia.</p>
+                <h4>Quinta Geração (Dias atuais)</h4>        
+                        <p>Embora não confirmado como uma geração autônoma, os sistemas de WEB 3.0, Inteligência artificial, sistemas criptográficos e metaverso estão progredindo de maneira muito rápido, que podem futuramente substituir o mundo como vemos hoje.</p>
+                <h3>Como surgiu a Internet</h3>
+                        <p>Com o intuito de facilitar a troca de informações, pois temiam ataques dos soviéticos, o Departamento de Defesa dos Estados Unidos (ARPA - Advanced Research Projects Agency) criou um sistema de compartilhamento de informações entre pessoas distantes geograficamente, a fim de facilitar as estratégias de guerra.</p>
+                        <p>Nesse momento, surge o protótipo da primeira rede de internet, a Arpanet (Advanced Research Projects Agency Network).</p>
+                        <p>Assim, no dia 29 de outubro de 1969 foi estabelecida a primeira conexão entre a Universidade da Califórnia e o Instituto de Pesquisa de Stanford. Foi um momento histórico, uma vez que o primeiro e-mail foi enviado.</p>
+                        <p>Já na década de 90, o cientista, físico e professor britânico Tim Berners-Lee desenvolveu um navegador ou browser, a World Wide Web (www), a Rede Mundial de Computadores - Internet.</p>
+                <h3>Grandes Nomes</h3>
+                        <h4>Grace Murray Hopper</h4>
+                                <p>Criadora da linguagem de programação de alto nível chamada Flow-Matic.</p>
+                        <h4>Joseph Carl Robnett Licklider</h4>
+                                <p>Iniciou a comunicação entre dois pontos distintos através do computador.</p>
+                        <h4>Robert E. Kahn</h4>
+                                <p>Apresentou o primeiro e-mail e criador do TCP/IP.</p>
+                        <h4>Tim Berners-Lee</h4>
+                                <p>Inventor do WWW.</p>
+                        <h4>Marc Andreessen</h4>
+                                <p>Tornou o navegador visualmente amigável com recursos gráficos.</p>
+                        <h4>Bill Gates</h4>
+                                <p>Fundador da Microsoft, tornando acessível o computador para uso doméstico</p>
+                        <h4>Steve Jobs</h4>
+                                <p>Fundador da Apple e visionário popularizador do Smartphone.</p>
+<a href="Index.html">Voltar</a>
+<hr>
+        <h2 id="oquesaoclients">O que são clients</h2>
+            <p>A expressão de cliente-servidor é utilizada no âmbito da informática. Nesse contexto, chama-se cliente ao dispositivo que exige determinados serviços a um servidor.</p>
+            <p>O conceito de cliente-servidor, refere-se, portanto, a um modelo de comunicação que vincula vários dispositivos informáticos através de uma rede. O cliente, nesse contexto, faz solicitações de serviços ao servidor, responsável por atender a esses requisitos.</p>
+            <p>Para ser um cliente logo precisa de um programa que sirva como intermediário entre o usuário e a solicitação para os servidores, esses programas são os navegadores, alguns dos mais populares são o <i>Google Chrome, Mozilla Firefox, Microsoft Edge, Opera, etc.</i></p>
+<a href="Index.html">Voltar</a>
+<hr>
+        <h2 id="oquesaoservers">O que são servers</h2>
+                <p>A expressão de cliente-servidor é utilizada no âmbito da informática. A ideia de servidor, entretanto, refere-se ao equipamento que presta serviços aos computadores conectados a ele através de uma rede.</p>
+                <p>Com essa arquitetura, as tarefas são distribuídas entre os servidores (que fornecem os serviços) e os clientes (que exigem esses serviços). Por outras palavras: o cliente solicita ao servidor um recurso, que fornece uma resposta.</p>
+<a href="Index.html">Voltar</a>
+<hr>
+        <h2 id="linguagemdeprogramacao">Linguagem de Programação</h2>
+                <p>Linguagem de programação é uma linguagem escrita e formal que especifica um conjunto de instruções e regras usadas para gerar programas. No geral podem ser divididas em dois lados, o server-side e o client-side.</p>
+            <h3>Server-Side</h3>
+                <p>As linguagens server-side são linguagens que o SERVIDOR (lado do servidor) entende, ou seja, aplicações que rodam no servidor. Isso quer dizer que você vai escrever um código onde o servidor vai processá-lo e então vai mandar para o seu navegador a resposta.</p>
+                <p>Algumas linguagens utilizadas: <i>JavaScript, Java, C#, Ruby, etc.</i></p>
+            <h3>Client-Side</h3>
+                <p>As linguagens client-side são linguagens onde apenas o seu NAVEGADOR vai entender. Quem vai processar essa linguagem não é o servidor, mas o seu browser (Chrome, IE, Firefox, etc...). Significa "lado do cliente", ou seja, aplicações que rodam no computador do usuário sem necessidade de processamento de seu servidor (ou host) para efetuar determinada tarefa.</p>
+                <p>Algumas linguagens utilizadas: <i>Javascript, Ajax, etc.</i></p>
+        
+        <p><strong>O HTML não é uma linguagem de programação e sim um arquivo de marcação.</strong></p>
+        <a href="Index.html">Voltar</a>
+        <hr>
+        <h2 id="referencias">Referências</h2>
+            <ul>
+                <li><a target="_blank" href="https://www.todamateria.com.br/historia-e-evolucao-dos-computadores/">https://www.todamateria.com.br/historia-e-evolucao-dos-computadores/</a></li>
+                <li><a target="_blank" href="https://www.todamateria.com.br/historia-da-internet/">https://www.todamateria.com.br/historia-da-internet/</a></li>
+                <li><a target="_blank" href="https://conceito.de/cliente-servidor">https://conceito.de/cliente-servidor</a></li>
+                <li><a target="_blank" href="https://www.gigasystems.com.br/artigo/60/client-side-e-server-side">https://www.gigasystems.com.br/artigo/60/client-side-e-server-side</a></li>
+            </ul>
+            <a href="Index.html">Voltar</a>
+
+
+    </Body>
+
+</html>
